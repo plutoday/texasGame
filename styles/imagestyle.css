@@ -6,84 +6,107 @@
 .card {
     width: 100px;
     height: auto;
-    -webkit-transition: ease-in 0.7s ease-out 0.1s;
-	-moz-transition: ease-in 0.7s ease-out 0.1s;
-	transition: ease-in 0.7s ease-out 0.1s;
 }
 
 #playerhole1 {    
    position: absolute;
    top: 420px;
-   left: 35%;  
+   left: 430px;  
    padding: 5px;
-   -webkit-transition: ease-in 0.7s ease-out 0.1s;
-   -moz-transition: ease-in 0.7s ease-out 0.1s;
-   transition: ease-in 0.7s ease-out 0.1s;
 }
 
 #playerhole2 {    
     position: absolute;
     top: 420px;
-    left: 45%;  
+    left: 570px;  
     padding: 5px;
-    -webkit-transition: ease-in 0.7s ease-out 0.1s;
-	-moz-transition: ease-in 0.7s ease-out 0.1s;
-	transition: ease-in 0.7s ease-out 0.1s;
  }
 
  #aihole1 {    
     position: absolute;
     top: 30px;
-    left: 35%;  
+    left: 430px;  
     padding: 5px;
-    -webkit-transition: ease-in 0.7s ease-out 0.1s;
-	-moz-transition: ease-in 0.7s ease-out 0.1s;
-	transition: ease-in 0.7s ease-out 0.1s;
  }
  
  #aihole2 {    
      position: absolute;
      top: 30px;
-     left: 45%;  
+     left: 570px;  
      padding: 5px;
-     -webkit-transition: ease-in 0.7s ease-out 0.1s;
-     -moz-transition: ease-in 0.7s ease-out 0.1s;
-     transition: ease-in 0.7s ease-out 0.1s;
   }
 
   #flop1 {    
     position: absolute;
     top: 220px;
-    left: 26%; 
+    left: 280px; 
     padding: 5px;
  }
  
  #flop2 {    
      position: absolute;
      top: 220px;
-     left: 36%;  
+     left: 420px;  
      padding: 5px;
   }
   
   #flop3 {    
     position: absolute;
     top: 220px;
-    left: 46%; 
+    left: 560px; 
     padding: 5px;
  }
  
  #turn {    
      position: absolute;
      top: 220px;
-     left: 56%;  
+     left: 700px;  
      padding: 5px;
   }
   
   #river {    
     position: absolute;
     top: 220px;
-    left: 66%; 
+    left: 840px; 
     padding: 5px;
  }
 
+ #aiavatar {
+     position: absolute;
+     top: 15px;
+     left: 700px;
+     height: 100px;
+     width: auto;
+ }
 
+#aicoins{
+    position: absolute;
+    top: 110px;
+    left: 725px;
+    height: 60px;
+    width: auto;
+}
+
+ #playeravatar {
+     position: absolute;
+     top: 420px;
+     left: 710px;
+     height: 80px;
+     width: auto;
+ }
+
+ #playercoins{
+     position: absolute;
+     top: 500px;
+     left: 725px;
+     height: 60px;
+     width: auto;
+ }
+
+ #onstagecoins{
+     position: absolute;
+     top : 240px;
+     left: 100px;
+     height: 60px;
+     width: auto;
+ }

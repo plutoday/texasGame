@@ -1,18 +1,18 @@
 
+
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
-    <title>Texas Hold'em</title>
+    <title>Color Picker</title>
     <link rel="stylesheet"  href="styles/imagestyle.css" type="text/css"/>
     <link rel="stylesheet"  href="styles/domstyle.css" type="text/css"/>
 
 </head>
 <body>
-    <img id="table" src="images/table.jpg"/>
-
     <div>
+        <img class="table" src="images/table.jpg"/>
         <img id="playerhole1" class="card" />
         <img id="playerhole2" class="card" />
         <img id="aihole1" class="card" />
@@ -22,27 +22,20 @@
         <img id="flop3" class="card" />
         <img id="turn" class="card" />
         <img id="river" class="card" />
-        <div id="ai">
         <img id="aiavatar" src="images/ai.png" />
-        <img id="aicoins" src="images/coins.png" />
-        <div id="aimoney" class="money"></div>
-        </div>
-        <div id="player">
         <img id="playeravatar" src="images/player.png" />
+        <img id="aicoins" src="images/coins.png" />
         <img id="playercoins" src="images/coins.png" />
-        <div id="playermoney" class="money"></div>
-        </div>
-        <div id="onstage">
         <img id="onstagecoins" src="images/coins.png" />
-        <div id="onstagemoney" class="money"></div>
-        </div>
         <button id="newgamebtn" onclick="newGameBtnClicked(this.id)">Start</button>
         <button id="betbtn" onclick="betBtnClicked(this.id)">Bet $5</button>
         <button id="foldbtn" onclick="foldBtnClicked(this.id)">Fold</button>
         <button id="confirmbtn" onclick="confirmBtnClicked(this.id)">OK</button>
         <div id="playerresult"></div>
         <div id="airesult"></div>
-
+        <div id="aimoney" class="money"></div>
+        <div id="playermoney" class="money"></div>
+        <div id="onstagemoney" class="money"></div>
     </div>
 </body>
 <script type="text/javascript" src="scripts/index.js"></script>
