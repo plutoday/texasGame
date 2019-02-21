@@ -1,4 +1,4 @@
-var url = "http://pokerserver-xiaoxuanli.azurewebsites.net/api/";
+var url = "https://pokerserver-xiaoxuanli.azurewebsites.net/api/";
 var gameId;
 
 function newGame() {
