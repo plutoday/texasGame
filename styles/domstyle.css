@@ -1,7 +1,7 @@
 #newgamebtn, #confirmbtn {
     position: absolute;
-    top: 260px;
-    left: 1030px;
+    top: 250px;
+    left: 83%;
     font-size: 30px;
     padding: 20px;
     color: white;
@@ -11,15 +11,9 @@
     box-shadow: 1px 5px 5px 1px rgb(110, 109, 105);
     cursor: pointer;
 }
-.table{
-    margin: 0 auto;
-}
 
-#confirmbtn {
-    position: absolute;
-    top: 260px;
-    left: 1030px;
-}
+
+
 
 #playerresult {
     position: absolute;
@@ -50,8 +44,8 @@
 #betbtn, 
 #foldbtn {
     position: absolute;
-    top: 260px;
-    left: 1030px;
+    top: 250px;
+    left: 83%;
     font-size: 25px;
     width: 100px;
     height: 40px;
@@ -68,7 +62,6 @@
 #foldbtn {
     position: absolute;
     top: 320px;
-    left: 1030px;
 }
 
 .money {
@@ -97,4 +90,7 @@
     top: 310px;
     left: 120px;
     text-align: right;
+}
+body{
+    text-align: center;
 }

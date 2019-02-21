@@ -11,70 +11,70 @@
 #playerhole1 {    
    position: absolute;
    top: 420px;
-   left: 430px;  
+   left: 35%;  
    padding: 5px;
 }
 
 #playerhole2 {    
     position: absolute;
     top: 420px;
-    left: 570px;  
+    left: 45%;  
     padding: 5px;
  }
 
  #aihole1 {    
     position: absolute;
     top: 30px;
-    left: 430px;  
+    left: 35%;  
     padding: 5px;
  }
  
  #aihole2 {    
      position: absolute;
      top: 30px;
-     left: 570px;  
+     left: 45%;  
      padding: 5px;
   }
 
   #flop1 {    
     position: absolute;
     top: 220px;
-    left: 280px; 
+    left: 26%; 
     padding: 5px;
  }
  
  #flop2 {    
      position: absolute;
      top: 220px;
-     left: 420px;  
+     left: 36%;  
      padding: 5px;
   }
   
   #flop3 {    
     position: absolute;
     top: 220px;
-    left: 560px; 
+    left: 46%; 
     padding: 5px;
  }
  
  #turn {    
      position: absolute;
      top: 220px;
-     left: 700px;  
+     left: 56%;  
      padding: 5px;
   }
   
   #river {    
     position: absolute;
     top: 220px;
-    left: 840px; 
+    left: 66%; 
     padding: 5px;
  }
 
  #aiavatar {
      position: absolute;
      top: 15px;
-     left: 700px;
+     left: 55%;
      height: 100px;
      width: auto;
  }
@@ -82,7 +82,7 @@
 #aicoins{
     position: absolute;
     top: 110px;
-    left: 725px;
+    left: 57%;
     height: 60px;
     width: auto;
 }
@@ -90,7 +90,7 @@
  #playeravatar {
      position: absolute;
      top: 420px;
-     left: 710px;
+     left: 56%;
      height: 80px;
      width: auto;
  }
@@ -98,7 +98,7 @@
  #playercoins{
      position: absolute;
      top: 500px;
-     left: 725px;
+     left: 57%;
      height: 60px;
      width: auto;
  }
@@ -106,7 +106,7 @@
  #onstagecoins{
      position: absolute;
      top : 240px;
-     left: 100px;
+     left: 8%;
      height: 60px;
      width: auto;
  }
