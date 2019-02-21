@@ -29,6 +29,8 @@ function reloadMoney(){
     document.getElementById('aimoney').textContent = "$"+ aimoney;
     document.getElementById('playermoney').textContent = "$"+ playermoney;
     document.getElementById('onstagemoney').textContent = "$"+ onstagemoney;
+
+
 }
 
 function setCardImages() {
