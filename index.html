@@ -22,20 +22,27 @@
         <img id="flop3" class="card" />
         <img id="turn" class="card" />
         <img id="river" class="card" />
+        <div id="ai">
         <img id="aiavatar" src="images/ai.png" />
-        <img id="playeravatar" src="images/player.png" />
         <img id="aicoins" src="images/coins.png" />
+        <div id="aimoney" class="money"></div>
+        </div>
+        <div id="player">
+        <img id="playeravatar" src="images/player.png" />
         <img id="playercoins" src="images/coins.png" />
+        <div id="playermoney" class="money"></div>
+        </div>
+        <div id="onstage">
         <img id="onstagecoins" src="images/coins.png" />
+        <div id="onstagemoney" class="money"></div>
+        </div>
         <button id="newgamebtn" onclick="newGameBtnClicked(this.id)">Start</button>
         <button id="betbtn" onclick="betBtnClicked(this.id)">Bet $5</button>
         <button id="foldbtn" onclick="foldBtnClicked(this.id)">Fold</button>
         <button id="confirmbtn" onclick="confirmBtnClicked(this.id)">OK</button>
         <div id="playerresult"></div>
         <div id="airesult"></div>
-        <div id="aimoney" class="money"></div>
-        <div id="playermoney" class="money"></div>
-        <div id="onstagemoney" class="money"></div>
+
     </div>
 </body>
 <script type="text/javascript" src="scripts/index.js"></script>

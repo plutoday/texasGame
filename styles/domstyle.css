@@ -1,7 +1,7 @@
 #newgamebtn, #confirmbtn {
     position: absolute;
     top: 250px;
-    left: 83%;
+    left: 80%;
     font-size: 30px;
     padding: 20px;
     color: white;
@@ -18,8 +18,8 @@
 #playerresult {
     position: absolute;
     top: 450px;
-    left: 840px;
-    font-size: 30px;
+    left: 20%;
+    font-size: 25px;
     width: 170px;
     word-wrap: break-word;
     overflow: auto;
@@ -31,8 +31,8 @@
 #airesult {
     position: absolute;
     top: 50px;
-    left: 840px;
-    font-size: 30px;
+    left: 20%;
+    font-size: 25px;
     width: 170px;
     word-wrap: break-word;
     overflow: auto;
@@ -45,7 +45,7 @@
 #foldbtn {
     position: absolute;
     top: 250px;
-    left: 83%;
+    left: 80%;
     font-size: 25px;
     width: 100px;
     height: 40px;
@@ -71,26 +71,65 @@
     font-weight: bolder
 }
 
-#aimoney{    
+#ai{
     position: absolute;
-    top: 170px;
-    left: 730px;
+    top: 15px;
+    left: 55%;
+    display: block;
+}
+
+#aiavatar {
+    height: 100px;
+    width: auto;
+}
+
+#aicoins{
+
+   height: 60px;
+   width: auto;
+}
+#aimoney{    
+
     text-align: right;
+}
+#player{
+    position: absolute;
+    top: 410px;
+    left: 56%;
+}
+#playeravatar {
+
+    height: 80px;
+    width: auto;
+}
+
+#playercoins{
+
+    height: 60px;
+    width: auto;
 }
 
 #playermoney{    
-    position: absolute;
-    top: 560px;
-    left: 730px;
     text-align: right;
 }
 
-#onstagemoney{    
+#onstage{
     position: absolute;
-    top: 310px;
-    left: 120px;
+    top: 240px;
+    left: 10%;
+}
+#onstagecoins{
+
+    height: 60px;
+    width: auto;
+}
+#onstagemoney{    
     text-align: right;
 }
+
 body{
-    text-align: center;
+    background-image: url("images/table.png");
+    background-size: 700px 700px;
+	background-repeat: no-repeat;
+    background-position:center;
 }

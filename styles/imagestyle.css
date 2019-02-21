@@ -86,42 +86,4 @@
     padding: 5px;
  }
 
- #aiavatar {
-     position: absolute;
-     top: 15px;
-     left: 55%;
-     height: 100px;
-     width: auto;
- }
 
-#aicoins{
-    position: absolute;
-    top: 110px;
-    left: 57%;
-    height: 60px;
-    width: auto;
-}
-
- #playeravatar {
-     position: absolute;
-     top: 420px;
-     left: 56%;
-     height: 80px;
-     width: auto;
- }
-
- #playercoins{
-     position: absolute;
-     top: 500px;
-     left: 57%;
-     height: 60px;
-     width: auto;
- }
-
- #onstagecoins{
-     position: absolute;
-     top : 240px;
-     left: 8%;
-     height: 60px;
-     width: auto;
- }
