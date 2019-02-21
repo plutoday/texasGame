@@ -1,0 +1,83 @@
+#newgamebtn {
+    position: absolute;
+    top: 260px;
+    left: 1030px;
+    font-size: 40px;
+}
+
+#confirmbtn {
+    position: absolute;
+    top: 260px;
+    left: 1030px;
+    font-size: 40px;
+}
+
+#playerresult {
+    position: absolute;
+    top: 450px;
+    left: 840px;
+    font-size: 30px;
+    width: 170px;
+    word-wrap: break-word;
+    overflow: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bolder;
+}
+
+#airesult {
+    position: absolute;
+    top: 50px;
+    left: 840px;
+    font-size: 30px;
+    width: 170px;
+    word-wrap: break-word;
+    overflow: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bolder;
+}
+
+#betbtn {
+    position: absolute;
+    top: 260px;
+    left: 1030px;
+    font-size: 25px;
+    width: 100px;
+}
+
+#foldbtn {
+    position: absolute;
+    top: 320px;
+    left: 1030px;
+    font-size: 25px;
+    width: 100px;
+}
+
+.money {
+    font-size: 20px;
+    color: gold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder
+}
+
+#aimoney{    
+    position: absolute;
+    top: 170px;
+    left: 730px;
+    text-align: right;
+}
+
+#playermoney{    
+    position: absolute;
+    top: 560px;
+    left: 730px;
+    text-align: right;
+}
+
+#onstagemoney{    
+    position: absolute;
+    top: 310px;
+    left: 120px;
+    text-align: right;
+}

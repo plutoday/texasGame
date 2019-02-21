@@ -1,0 +1,42 @@
+
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Color Picker</title>
+    <link rel="stylesheet"  href="styles/imagestyle.css" type="text/css"/>
+    <link rel="stylesheet"  href="styles/domstyle.css" type="text/css"/>
+
+</head>
+<body>
+    <div>
+        <img class="table" src="images/table.jpg"/>
+        <img id="playerhole1" class="card" />
+        <img id="playerhole2" class="card" />
+        <img id="aihole1" class="card" />
+        <img id="aihole2" class="card" />
+        <img id="flop1" class="card" />
+        <img id="flop2" class="card" />
+        <img id="flop3" class="card" />
+        <img id="turn" class="card" />
+        <img id="river" class="card" />
+        <img id="aiavatar" src="images/ai.png" />
+        <img id="playeravatar" src="images/player.png" />
+        <img id="aicoins" src="images/coins.png" />
+        <img id="playercoins" src="images/coins.png" />
+        <img id="onstagecoins" src="images/coins.png" />
+        <button id="newgamebtn" onclick="newGameBtnClicked(this.id)">New <br/> Game</button>
+        <button id="betbtn" onclick="betBtnClicked(this.id)">Bet</button>
+        <button id="foldbtn" onclick="foldBtnClicked(this.id)">Fold</button>
+        <button id="confirmbtn" onclick="confirmBtnClicked(this.id)">Confirm</button>
+        <div id="playerresult"></div>
+        <div id="airesult"></div>
+        <div id="aimoney" class="money"></div>
+        <div id="playermoney" class="money"></div>
+        <div id="onstagemoney" class="money"></div>
+    </div>
+</body>
+<script type="text/javascript" src="scripts/index.js"></script>
+<script type="text/javascript" src="scripts/server.js"></script>
+</html>
