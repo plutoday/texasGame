@@ -6,6 +6,9 @@
 .card {
     width: 100px;
     height: auto;
+    -webkit-transition: ease-in 0.7s ease-out 0.1s;
+	-moz-transition: ease-in 0.7s ease-out 0.1s;
+	transition: ease-in 0.7s ease-out 0.1s;
 }
 
 #playerhole1 {    
@@ -13,6 +16,9 @@
    top: 420px;
    left: 35%;  
    padding: 5px;
+   -webkit-transition: ease-in 0.7s ease-out 0.1s;
+   -moz-transition: ease-in 0.7s ease-out 0.1s;
+   transition: ease-in 0.7s ease-out 0.1s;
 }
 
 #playerhole2 {    
@@ -20,6 +26,9 @@
     top: 420px;
     left: 45%;  
     padding: 5px;
+    -webkit-transition: ease-in 0.7s ease-out 0.1s;
+	-moz-transition: ease-in 0.7s ease-out 0.1s;
+	transition: ease-in 0.7s ease-out 0.1s;
  }
 
  #aihole1 {    
@@ -27,6 +36,9 @@
     top: 30px;
     left: 35%;  
     padding: 5px;
+    -webkit-transition: ease-in 0.7s ease-out 0.1s;
+	-moz-transition: ease-in 0.7s ease-out 0.1s;
+	transition: ease-in 0.7s ease-out 0.1s;
  }
  
  #aihole2 {    
@@ -34,6 +46,9 @@
      top: 30px;
      left: 45%;  
      padding: 5px;
+     -webkit-transition: ease-in 0.7s ease-out 0.1s;
+     -moz-transition: ease-in 0.7s ease-out 0.1s;
+     transition: ease-in 0.7s ease-out 0.1s;
   }
 
   #flop1 {    
