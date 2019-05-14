@@ -1,4 +1,4 @@
-var url = "https://pokerserver-xiaoxuanli.azurewebsites.net/api/";
+var url = "https://pokerwebservice.azurewebsites.net/api";
 var gameId;
 
 function newGame() {
@@ -6,6 +6,7 @@ function newGame() {
     var xmlHttp = new XMLHttpRequest();
     xmlHttp.open( "GET", url + "NewGame", false ); // false for synchronous request
     xmlHttp.send( null );
+    console.log(xmlHttp.responseText);
     gameId = JSON.parse(xmlHttp.responseText).GameId;
     return xmlHttp.responseText;
 }
