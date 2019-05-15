@@ -1,4 +1,4 @@
-var url = "https://pokerwebservice.azurewebsites.net/api";
+var url = "https://pokerwebservice.azurewebsites.net/api/";
 var gameId;
 
 function newGame() {
